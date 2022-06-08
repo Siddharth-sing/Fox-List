@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #fffcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flex-container{
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+}
+.flex-item-1{
+ margin: 15px;
+ /* order: 2 */
+}
+.flex-item-2{
+  margin: auto 0px auto 0px;
+  color: #FF8736;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  /* order: 1 */
+ }
+ .body-main{
+   height: 100vh;
+   background-color:#fffcdc;
+   /* background-image: linear-gradient(to right,#d9a7c7, #fffcdc); */
+ }
+ .f-main-container{
+   margin: auto;
+   width: 25%;
+   height:60vh;
+   padding: 20px;
+   background-color:#f7f5e9;
+   border-radius: 40px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   overflow: scroll;
+   border: 1.3px solid #FF8736;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+.input-notes{
+ display: block; 
+ width: 75%;
+ 
+
+}
+.add-btn:hover{
+  transform: scale(1.5);
+}
+.add-btn{
+  background-color: blue;
+  height: 52px;
+  width: 52px;
+  transition: transform 5.0s;
+}
+.todo-list{
+  height:85%;
+  font-family: 'Dancing Script', cursive;
+  font-size:20px
+}
+.progress-flex-item{
+  margin-top:50%;
+  margin-bottom: 50%;
+}
+.o-list{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #9C27B0;
+}
+
+
+
